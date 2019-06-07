@@ -76,7 +76,7 @@ span {
 	animation-name: spin;
 	animation-duration: 5000ms;
 	animation-iteration-count: infinite;
-  	animation-timing-function: linear; 
+  	animation-timing-function: linear;
 }
 
 .intro p, .intro h1 {
@@ -169,7 +169,7 @@ span {
     50% { opacity: 0.5;}
     100% {opacity: 1;}
   }
-  
+
   @keyframes fadein {
     50% { opacity: 0.5; }
     100% {opacity: 1;}
@@ -205,7 +205,7 @@ span {
 .interest__hobby {
 	display: grid;
 	grid-template-columns: 1fr;
-	justify-items: center;	
+	justify-items: center;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -221,7 +221,7 @@ span {
 .flip-container {
 	perspective: 1000px;
 }
-	
+
 .flip-container:hover .flipper, .flip-container.hover .flipper {
 	transform: rotateY(180deg);
 }
@@ -326,7 +326,7 @@ footer a:hover {
 	.interest__hobby {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		justify-items: center;	
+		justify-items: center;
 		text-align: center;
 	}
 }
@@ -334,10 +334,15 @@ footer a:hover {
 
 /* Start of gallery */
 
+.ohsnap {
+	margin: 0 auto;
+	letter-spacing: 2px;
+}
+
 .gallery__container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-areas: 
+	grid-template-areas:
 	"header"
 	"title"
 	"polaroid"
@@ -391,7 +396,7 @@ footer a:hover {
 	justify-items: center;
 	display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "pic1 pic2 pic3"
     "pic4 pic5 pic6";
 }
@@ -413,7 +418,7 @@ footer a:hover {
 		justify-items: center;
     	align-items: center;
 		grid-template-columns: 1fr;
-		grid-template-areas: 
+		grid-template-areas:
 		"header"
 		"title"
 		"polaroid"
@@ -424,7 +429,7 @@ footer a:hover {
 		margin-left: 10px;
 		display: grid;
     	grid-template-columns: 1fr;
-    	grid-template-areas: 
+    	grid-template-areas:
     	"pic1"
     	"pic2"
     	"pic3"
@@ -441,7 +446,7 @@ footer a:hover {
 .portfolio__container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-areas: 
+	grid-template-areas:
 	"header"
 	"portfolio"
 	"circle"
@@ -465,7 +470,7 @@ footer a:hover {
 	justify-items: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: 
+	grid-template-areas:
 	"pixelArt colorGame memoryGame";
 }
 
@@ -532,7 +537,7 @@ footer a:hover {
     	margin-top: 50px;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
-		grid-template-areas: 
+		grid-template-areas:
 		"pixelArt"
 		"colorGame"
 		"memoryGame";
